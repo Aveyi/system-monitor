@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from metrics_collector import MetricsCollector
+from app.metrics_collector import MetricsCollector
 
 app = FastAPI()
 
